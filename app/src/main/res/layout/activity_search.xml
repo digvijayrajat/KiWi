@@ -23,7 +23,6 @@
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_search_dark"
                 />
-
             <EditText
                 fontPath="fonts/Oswald-Medium.ttf"
                 android:id="@+id/etSearch"
