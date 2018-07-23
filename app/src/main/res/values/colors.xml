@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--
+    <color name="colorPrimary">#edf97c</color>
+
+-->
+    <color name="colorPrimary">#cddc39</color>
+    <color name="colorPrimaryDark">#ffab00</color>
+    <color name="colorAccent">#ffab00</color>
+    <color name="lightBg">#ffffff</color>
+    <color name="dimBg">#fafafa</color>
+    <color name="DarkBg">#616161</color>
+    <color name="dimWhite">#d0d0d0</color>
+
+
+
+
+         <!--7d572e-->
+</resources>

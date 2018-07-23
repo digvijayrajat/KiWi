@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="80dp"
+    android:background="@color/lightBg"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:foreground="?selectableItemBackground"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_gunn"
+        android:id="@+id/ivImage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvResult"
+        fontPath="fonts/Oswald-Medium.ttf"
+        android:textSize="18sp"
+        android:layout_marginStart="14dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvDescription"
+        android:layout_marginStart="14dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvResult"
+        />
+    a</RelativeLayout>

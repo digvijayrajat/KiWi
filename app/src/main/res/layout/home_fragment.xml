@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dimBg">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:id="@+id/cardnews"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/blanck"
+                        android:src="@drawable/blanck"
+                        android:scaleType="centerCrop"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_news"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In the news"
+                        android:id="@+id/info"
+                        fontPath="fonts/Oswald-Medium.ttf"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/blanck"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="4dp"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_menu"
+                        />
+
+                </RelativeLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+                </LinearLayout>
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerView"
+                android:layout_height="100dp"
+                android:elevation="10dp"
+                android:layout_alignBottom="@+id/cardnews"/>
+
+        </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/blanc"
+                        android:src="@drawable/blanck"
+                        android:scaleType="centerCrop"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_quote"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quote of the day"
+                        fontPath="fonts/Oswald-Medium.ttf"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/blanc"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="4dp"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_menu"
+                        />
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quote"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/blanc"
+                    android:layout_marginEnd="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_gravity="end"
+                    android:text="~ Tom Robbins"
+                    fontPath="fonts/Oswald-Medium.ttf"
+                    android:layout_marginEnd="16dp"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/blan"
+                        android:src="@drawable/blanck"
+                        android:scaleType="centerCrop"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_camera"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Image of the day"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/blan"
+                        fontPath="fonts/Oswald-Medium.ttf"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="4dp"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_menu"
+                        />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_pic"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

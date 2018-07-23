@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ResultsActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:background="@color/colorAccent"
+    android:layout_height="56dp">
+    <ImageView
+        android:layout_width="56dp"
+        android:src="@drawable/ic_close"
+        android:padding="12dp"
+        android:id="@+id/ivClose"
+        android:layout_height="56dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:id="@+id/tvTitle"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/ivClose"
+        android:textColor="@color/lightBg"
+        fontPath="fonts/Oswald-Medium.ttf"
+        />
+
+</RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_grid"
+        android:layout_margin="16dp"
+        android:id="@+id/ivSwitch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

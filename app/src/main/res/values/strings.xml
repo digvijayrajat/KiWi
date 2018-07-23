@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KiWi</string>
+    <string name="text_home">Home</string>
+    <string name="text_saved">Saved</string>
+    <string name="text_trending">Trending</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="quote">It is so amusing the way that mortals misunderstand the shape, or shapes, of time. … In the realms of the ultimate, each person must figure out things for themselves. … Teachers who offer you the ultimate answers do not possess the ultimate answers, for if they did, they would know that the ultimate answers cannot be given, they can only be received.</string>
+    <string name="title">title</string>
+    <string name="read_more_on_wikipedia">read more on wikipedia</string>
+    <string name="explore_more_on">Explore more On</string>
+    <string name="google">Google</string>
+    <string name="youtube">youtube</string>
+    <string name="kiwi_read_amp_explore"><![CDATA[KiWi - Read & explore]]></string>
+    <string name="powered_n_by_n">powered  by</string>
+</resources>
